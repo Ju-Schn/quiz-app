@@ -1,0 +1,11 @@
+.card {
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: bisque;
+  margin: 1em;
+  padding: 10px;
+}
+
+.card__title {
+  color: #333;
+}
