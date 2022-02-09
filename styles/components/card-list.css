@@ -1,0 +1,7 @@
+.card-list {
+  background-color: rgb(108, 187, 105);
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
