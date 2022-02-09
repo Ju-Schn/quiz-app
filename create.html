@@ -4,11 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Create</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header class="header">
+      <h1 class="header__title" id="title">Create</h1>
+    </header>
+    <main>
+      <form aria-labelledby="title">
+        <p aria-describedby="">Enter your question here:</p>
+        <label for="question">Question</label>
+        <textarea name="" id="question" cols="30" rows="10"></textarea>
+        <p>Enter your answer here:</p>
+        <label for="answer">Answer</label>
+        <textarea name="" id="answer" cols="30" rows="10"></textarea>
+        <p>Place some tags here, divide them by ","</p>
+        <label for="tags">Tags</label>
+        <input type="text" id="tags" />
+        <div><button class="button--submit" type="submit">Submit</button></div>
+      </form>
+    </main>
     <footer></footer>
   </body>
 </html>
