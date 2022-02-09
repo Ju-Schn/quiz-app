@@ -1,11 +1,26 @@
 .card {
-  border: 1px solid #333;
+  border: 1px solid rgb(8, 37, 8);
   border-radius: 5px;
-  background-color: bisque;
+  background-color: forestgreen;
   margin: 1em;
-  padding: 10px;
+  padding: 1em;
+  color: rgb(8, 37, 8);
 }
 
 .card__title {
-  color: #333;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+}
+
+.card__question {
+  text-align: justify;
+  padding: 0rem 2rem;
+}
+
+.card__taglist {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
