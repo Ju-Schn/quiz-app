@@ -1,15 +1,18 @@
 .card {
-  border: 1px solid rgb(8, 37, 8);
+  border: 1px solid rgb(0, 0, 82);
   border-radius: 5px;
-  background-color: forestgreen;
-  margin: 1em;
-  padding: 1em;
-  color: rgb(8, 37, 8);
+  background-color: azure;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: rgb(0, 0, 82);
+  width: 400px;
 }
 
 .card__title {
   font-variant: small-caps;
   letter-spacing: 2px;
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
 }
 
 .card__question {
@@ -19,8 +22,17 @@
 
 .card__taglist {
   list-style: none;
-  padding: 0px;
-  /*display: flex;
+  padding: 1rem;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;*/
+  justify-content: space-evenly;
+}
+
+.card__tag {
+  text-decoration: none;
+  color: rgb(30, 200, 243);
+}
+
+.card__tag:hover {
+  color: rgb(0, 0, 82);
 }
