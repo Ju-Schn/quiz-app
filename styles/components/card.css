@@ -20,7 +20,7 @@
 .card__taglist {
   list-style: none;
   padding: 0px;
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-evenly;*/
 }

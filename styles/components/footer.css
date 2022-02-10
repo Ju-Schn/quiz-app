@@ -1,0 +1,20 @@
+.footer__navigation {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50px;
+  gap: 1px;
+  background-color: azure;
+}
+
+.footer__icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hotpink;
+}
+
+.footer__icon--clicked {
+  background-color: azure;
+}
