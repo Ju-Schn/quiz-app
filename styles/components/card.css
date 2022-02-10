@@ -1,10 +1,10 @@
 .card {
   border: 1px solid rgb(8, 37, 8);
   border-radius: 5px;
-  background-color: forestgreen;
+  background-color: azure;
   margin: 1em;
   padding: 1em;
-  color: rgb(8, 37, 8);
+  color: rgb(0, 0, 82);
 }
 
 .card__title {
