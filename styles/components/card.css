@@ -1,8 +1,7 @@
 .card {
-  border: 1px solid rgb(8, 37, 8);
+  border: 1px solid rgb(0, 0, 82);
   border-radius: 5px;
   background-color: azure;
-  margin: 1em;
   padding: 1em;
   color: rgb(0, 0, 82);
 }
@@ -19,8 +18,17 @@
 
 .card__taglist {
   list-style: none;
-  padding: 0px;
-  /*display: flex;
+  padding: 1rem;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;*/
+  justify-content: space-evenly;
+}
+
+.card__tag {
+  text-decoration: none;
+  color: rgb(30, 200, 243);
+}
+
+.card__tag:hover {
+  color: rgb(0, 0, 82);
 }
