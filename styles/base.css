@@ -6,6 +6,9 @@ body {
   margin: 0px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  display: grid;
+  grid-template-rows: 48px auto 48px;
+  height: 100vh;
 }
 
 h1,
@@ -16,9 +19,4 @@ h5,
 h6 {
   margin: 0px;
   padding: 0px;
-}
-
-main {
-  background-color: rgb(30, 200, 243, 0.3);
-  padding: 2rem;
 }
