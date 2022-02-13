@@ -4,17 +4,84 @@
 }
 
 .button--answer {
-  background-color: rgb(19, 177, 19);
-  color: darkgreen;
-  padding: 10px;
+  background: linear-gradient(to top, rgb(0, 0, 82), rgb(30, 200, 243, 0.3));
+  color: azure;
+  padding: 15px;
   margin: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   font-size: larger;
   border: none;
   border-radius: 5px;
+  box-shadow: 0 0 1em rgb(0, 0, 82);
+}
+
+.button--hide {
+  background: linear-gradient(to top, rgb(0, 0, 82), rgb(30, 200, 243, 0.3));
+  color: azure;
+  padding: 15px;
+  margin: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 1em rgb(0, 0, 82);
+}
+
+.button__bookmark {
+  background-color: azure;
+  height: 48px;
+  width: 48px;
+  border: 1px solid rgb(0, 0, 82);
+  border-radius: 50%;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: -20px;
+  right: 10%;
+}
+
+.button__bookmark--bookmarked {
+  background-color: azure;
+  height: 48px;
+  width: 48px;
+  border: 1px solid rgb(0, 0, 82);
+  border-radius: 50%;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: -20px;
+  right: 10%;
+}
+
+.button__bookmark--image {
+  background-color: azure;
+  height: 25px;
+  width: auto;
+  display: inline-block;
+  text-align: center;
 }
 
 .button--submit {
+  background: linear-gradient(to top, rgb(0, 0, 82), rgb(30, 200, 243, 0.3));
+  color: azure;
+  padding: 15px;
+  margin: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 1em rgb(0, 0, 82);
+}
+
+.button__container--submit {
+  display: flex;
+  justify-content: center;
 }
 
 .button--logout {
