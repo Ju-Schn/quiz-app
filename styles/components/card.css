@@ -10,6 +10,18 @@
   position: relative;
 }
 
+.card--bookmarked {
+  border: 2px solid rgb(0, 0, 82);
+  border-radius: 5px;
+  background-color: rgb(0, 0, 82, 0.6);
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  color: azure;
+  width: 400px;
+  box-shadow: 0 0 1em rgb(0, 0, 82);
+  position: relative;
+}
+
 .card__title {
   font-variant: small-caps;
   letter-spacing: 2px;
@@ -17,7 +29,14 @@
   padding-left: 0.5rem;
 }
 
-.card__question {
+.card__title--bookmarked {
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.card__text {
   text-align: justify;
   padding: 0rem 2rem;
 }
@@ -37,4 +56,16 @@
 
 .card__tag:hover {
   color: rgb(0, 0, 82);
+}
+
+.card__answer {
+  border: 1px solid rgb(0, 0, 82);
+  border-radius: 5px;
+  background-color: azure;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  color: rgb(0, 0, 82);
+  width: 400px;
+  box-shadow: 0 0 1em;
+  position: relative;
 }
