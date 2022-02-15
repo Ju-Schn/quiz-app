@@ -8,8 +8,8 @@
   color: azure;
   padding: 15px;
   margin: 5px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   font-size: larger;
   border: none;
@@ -22,8 +22,8 @@
   color: azure;
   padding: 15px;
   margin: 5px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   font-size: larger;
   border: none;
@@ -45,11 +45,12 @@
 }
 
 .button__bookmark--bookmarked {
-  background-color: azure;
+  background-color: rgb(30, 200, 243);
   height: 48px;
   width: 48px;
   border: 1px solid rgb(0, 0, 82);
   border-radius: 50%;
+  box-shadow: inset 0 0 1px 2px rgb(0, 0, 82);
   padding: 0px;
   margin: 0px;
   position: absolute;
@@ -58,7 +59,6 @@
 }
 
 .button__bookmark--image {
-  background-color: azure;
   height: 25px;
   width: auto;
   display: inline-block;
@@ -70,8 +70,8 @@
   color: azure;
   padding: 15px;
   margin: 15px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   font-size: larger;
   border: none;
