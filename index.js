@@ -1,4 +1,4 @@
-const bookmarkButton = document.querySelectorAll('[data-js=bookmarkButton]');
+const bookmarkButton = document.querySelector('[data-js=bookmarkButton]');
 const card = document.querySelector('[data-js=card]');
 const answerButton = document.querySelector('[data-js=answerButton]');
 
