@@ -1,4 +1,7 @@
 .profile {
+  overflow-y: auto;
+  padding: 2rem;
+  background-color: rgb(30, 200, 243, 0.3);
 }
 
 .profile__head {
@@ -6,13 +9,14 @@
   gap: 20px;
   align-items: center;
   justify-content: flex-start;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .profile__picture--add {
   border: 1px solid rgb(0, 0, 82);
   border-radius: 50%;
   box-shadow: 0 0 1em rgb(0, 0, 82);
+  background-color: azure;
   height: 8rem;
   width: 8rem;
 }
@@ -20,11 +24,25 @@
 .profile__picture {
 }
 
+.profile__name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 .profile__information {
+  padding: 1rem;
 }
 
 .profile__skills {
+  padding: 1rem;
 }
 
 .profile__tags {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid rgb(0, 0, 82);
+  border-radius: 5px;
+  background-color: azure;
+  display: flex;
+  justify-content: space-evenly;
 }
