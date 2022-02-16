@@ -23,6 +23,7 @@
             id="question"
             cols="30"
             rows="10"
+            placeholder="What is Garfield's favourite food?"
           ></textarea>
         </div>
         <div class="container__answer">
@@ -33,11 +34,19 @@
             id="answer"
             cols="30"
             rows="10"
+            placeholder="Lasagna"
           ></textarea>
         </div>
         <div class="container__tags">
-          <label for="tags">Place some tags here, divide them by ","</label>
-          <input class="create__tags" type="text" id="tags" />
+          <label for="tags"
+            >Place up to four tags here, divide them by ","</label
+          >
+          <input
+            class="create__tags"
+            type="text"
+            id="tags"
+            placeholder="#cats, #food, #comics"
+          />
         </div>
         <div class="button__container--submit">
           <button class="button--submit" type="submit">Submit</button>
