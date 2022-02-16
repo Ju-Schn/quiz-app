@@ -48,7 +48,7 @@
     rgb(30, 200, 243, 0.3),
     rgb(0, 0, 82, 0.7)
   );
-  color: azure;
+  color: rgb(0, 0, 82, 0.7);
   padding: 15px;
   margin: 5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -114,10 +114,15 @@
 }
 
 .button--submit {
-  background: linear-gradient(to top, rgb(0, 0, 82), rgb(30, 200, 243, 0.3));
-  color: azure;
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 82, 0.7),
+    rgb(30, 200, 243, 0.3),
+    rgb(0, 0, 82, 0.7)
+  );
+  color: rgb(0, 0, 82, 0.7);
   padding: 15px;
-  margin: 15px;
+  margin: 5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
@@ -133,4 +138,21 @@
 }
 
 .button--logout {
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 82, 0.7),
+    rgb(30, 200, 243, 0.3),
+    rgb(0, 0, 82, 0.7)
+  );
+  color: rgb(0, 0, 82, 0.7);
+  padding: 15px;
+  margin: 5px;
+  margin-bottom: 3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 1em rgb(0, 0, 82);
 }
