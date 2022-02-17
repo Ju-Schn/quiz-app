@@ -59,13 +59,9 @@
 }
 
 .card__answer {
-  border: 1px solid rgb(0, 0, 82);
-  border-radius: 5px;
-  background-color: azure;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  color: rgb(0, 0, 82);
-  width: 350px;
-  box-shadow: 0 0 1em;
-  position: relative;
+  display: none;
+}
+
+.card__show-answer {
+  display: contents;
 }
