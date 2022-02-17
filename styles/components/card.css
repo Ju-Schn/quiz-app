@@ -62,6 +62,6 @@
   display: none;
 }
 
-.card__show-answer {
-  display: contents;
+.card__show {
+  display: block;
 }
