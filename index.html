@@ -10,346 +10,308 @@
     <title>Quiz App</title>
   </head>
   <body>
-    <main>
-      <section class="card-list">
-        <section data-js="pageHome">
-          <header class="header">
+    <header data-js="headerHome" class="header">
+      <img class="header__image" src="./images/icons8-faq-48.png" alt="" />
+      <h1 class="header__title">Quiz App</h1>
+      <img
+        class="header__image"
+        src="./images/icons8-direction-48.png"
+        alt=""
+      />
+    </header>
+    <header data-js="headerBookmarked" class="header hidden">
+      <img class="header__image" src="./images/icons8-save-48.png" alt="" />
+      <h1 class="header__title">Bookmarked</h1>
+      <img class="header__image" src="./images/icons8-save-48.png" alt="" />
+    </header>
+    <header data-js="headerCreate" class="header hidden">
+      <img class="header__image" src="./images/icons8-add-48.png" alt="" />
+      <h1 class="header__title" id="title">Create</h1>
+      <img class="header__image" src="./images/icons8-add-48.png" alt="" />
+    </header>
+    <header data-js="headerProfile" class="header hidden">
+      <img class="header__image" src="./images/icons8-resume-48.png" alt="" />
+      <h1 class="header__title">Profile</h1>
+      <img class="header__image" src="./images/icons8-resume-48.png" alt="" />
+    </header>
+    <main class="card-list">
+      <section data-js="pageHome">
+        <section data-js="card" class="card">
+          <h2 class="card__title">Question</h2>
+          <button data-js="bookmarkButton" class="button__bookmark">
             <img
-              class="header__image"
-              src="./images/icons8-faq-48.png"
-              alt=""
+              class="button__bookmark--image"
+              src="./images/icons8-mark-48black.png"
+              alt="Bookmark"
             />
-            <h1 class="header__title">Quiz App</h1>
-            <img
-              class="header__image"
-              src="./images/icons8-direction-48.png"
-              alt=""
-            />
-          </header>
-
-          <section data-js="card" class="card">
-            <h2 class="card__title">Question</h2>
-            <button data-js="bookmarkButton" class="button__bookmark">
-              <img
-                class="button__bookmark--image"
-                src="./images/icons8-mark-48black.png"
-                alt="Bookmark"
-              />
+          </button>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            quidem itaque mollitia ex explicabo autem, quos aperiam eius
+            blanditiis, harum necessitatibus facilis ab ipsum deleniti, aliquam
+            minus? Animi, adipisci iste?
+          </p>
+          <div class="button">
+            <button data-js="answerButton" class="button__answer">
+              Show Answer
             </button>
-            <p class="card__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-              quidem itaque mollitia ex explicabo autem, quos aperiam eius
-              blanditiis, harum necessitatibus facilis ab ipsum deleniti,
-              aliquam minus? Animi, adipisci iste?
-            </p>
-            <div class="button">
-              <button data-js="answerButton" class="button__answer">
-                Show Answer
-              </button>
-            </div>
-            <h2 data-js="cardAnswerTitle" class="card__answer card__title">
-              Answer
-            </h2>
-            <p data-js="cardAnswer" class="card__answer card__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-              quidem itaque mollitia ex explicabo autem, quos aperiam eius.
-            </p>
-            <section class="card__taglist">
-              <a class="card__tag" href="#">#Tag 1</a>
-              <a class="card__tag" href="#">#Tag 2</a>
-              <a class="card__tag" href="#">#Tag 3</a>
-              <a class="card__tag" href="#">#Tag 4</a>
-            </section>
-          </section>
-          <section data-js="card" class="card">
-            <h2 class="card__title">Question</h2>
-            <button data-js="bookmarkButton" class="button__bookmark">
-              <img
-                class="button__bookmark--image"
-                src="./images/icons8-mark-48black.png"
-                alt="Bookmark"
-              />
-            </button>
-            <p class="card__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-              quidem itaque mollitia ex explicabo autem, quos aperiam eius.
-            </p>
-            <div class="button">
-              <button class="button__hide">Show Answer</button>
-            </div>
-            <h2 class="card__answer card__title">Answer</h2>
-            <p class="card__answer">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-              quidem itaque mollitia ex explicabo autem, quos aperiam eius.
-            </p>
-            <section class="card__taglist">
-              <a class="card__tag" href="#">#Tag 1</a>
-              <a class="card__tag" href="#">#Tag 2</a>
-              <a class="card__tag" href="#">#Tag 3</a>
-              <a class="card__tag" href="#">#Tag 4</a>
-            </section>
-          </section>
-          <section data-js="card" class="card">
-            <h2 class="card__title">Question</h2>
-            <button data-js="bookmarkButton" class="button__bookmark">
-              <img
-                class="button__bookmark--image"
-                src="./images/icons8-mark-48black.png"
-                alt="Bookmark"
-              />
-            </button>
-            <p class="card__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-              quidem itaque mollitia ex explicabo autem, quos aperiam eius
-              blanditiis, harum necessitatibus facilis ab ipsum deleniti,
-              aliquam minus? Animi, adipisci iste?
-            </p>
-            <div class="button">
-              <button class="button__answer">Show Answer</button>
-            </div>
-            <section class="card__taglist">
-              <a class="card__tag" href="#">#Tag 1</a>
-              <a class="card__tag" href="#">#Tag 2</a>
-              <a class="card__tag" href="#">#Tag 3</a>
-              <a class="card__tag" href="#">#Tag 4</a>
-            </section>
-          </section>
-          <section data-js="card" class="card">
-            <h2 class="card__title">Question</h2>
-            <button data-js="bookmarkButton" class="button__bookmark">
-              <img
-                class="button__bookmark--image"
-                src="./images/icons8-mark-48black.png"
-                alt="Bookmark"
-              />
-            </button>
-            <p class="card__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-              quidem itaque mollitia ex explicabo autem, quos aperiam eius
-              blanditiis, harum necessitatibus facilis ab ipsum deleniti,
-              aliquam minus? Animi, adipisci iste?
-            </p>
-            <div class="button">
-              <button class="button__answer">Show Answer</button>
-            </div>
-            <section class="card__taglist">
-              <a class="card__tag" href="#">#Tag 1</a>
-              <a class="card__tag" href="#">#Tag 2</a>
-              <a class="card__tag" href="#">#Tag 3</a>
-              <a class="card__tag" href="#">#Tag 4</a>
-            </section>
+          </div>
+          <h2 data-js="cardAnswerTitle" class="card__answer card__title">
+            Answer
+          </h2>
+          <p data-js="cardAnswer" class="card__answer card__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            quidem itaque mollitia ex explicabo autem, quos aperiam eius.
+          </p>
+          <section class="card__taglist">
+            <a class="card__tag" href="#">#Tag 1</a>
+            <a class="card__tag" href="#">#Tag 2</a>
+            <a class="card__tag" href="#">#Tag 3</a>
+            <a class="card__tag" href="#">#Tag 4</a>
           </section>
         </section>
-
-        <section data-js="pageBookmarked" class="hidden">
-          <header class="header">
+        <section data-js="card" class="card">
+          <h2 class="card__title">Question</h2>
+          <button data-js="bookmarkButton" class="button__bookmark">
             <img
-              class="header__image"
-              src="./images/icons8-save-48.png"
-              alt=""
+              class="button__bookmark--image"
+              src="./images/icons8-mark-48black.png"
+              alt="Bookmark"
             />
-            <h1 class="header__title">Bookmarked</h1>
-            <img
-              class="header__image"
-              src="./images/icons8-save-48.png"
-              alt=""
-            />
-          </header>
-          <section class="card-list">
-            <section class="card--bookmarked">
-              <h2 class="card__title--bookmarked">Question</h2>
-              <button class="button__bookmark--bookmarked">
-                <img
-                  class="button__bookmark--image"
-                  src="./images/icons8-mark-48.png"
-                  alt="Bookmarked"
-                />
-              </button>
-              <p class="card__question--bookmarked">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-                quidem itaque mollitia ex explicabo autem, quos aperiam eius
-                blanditiis, harum necessitatibus facilis ab ipsum deleniti,
-                aliquam minus? Animi, adipisci iste?
-              </p>
-              <div class="button">
-                <button class="button__answer--bookmarked">Show Answer</button>
-              </div>
-              <section class="card__taglist">
-                <a class="card__tag" href="#">#Tag 1</a>
-                <a class="card__tag" href="#">#Tag 2</a>
-                <a class="card__tag" href="#">#Tag 3</a>
-                <a class="card__tag" href="#">#Tag 4</a>
-              </section>
-            </section>
-            <section class="card--bookmarked">
-              <h2 class="card__title">Question</h2>
-              <button class="button__bookmark">
-                <img
-                  class="button__bookmark--image"
-                  src="./images/icons8-mark-48.png"
-                  alt="Bookmark"
-                />
-              </button>
-              <p class="card__text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-                quidem itaque mollitia ex explicabo autem, quos aperiam eius.
-              </p>
-              <div class="button">
-                <button class="button__hide--bookmarked">Hide Answer</button>
-              </div>
-              <h2 class="card__title">Answer</h2>
-              <p class="card__text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-                quidem itaque mollitia ex explicabo autem, quos aperiam eius.
-              </p>
-              <section class="card__taglist">
-                <a class="card__tag" href="#">#Tag 1</a>
-                <a class="card__tag" href="#">#Tag 2</a>
-                <a class="card__tag" href="#">#Tag 3</a>
-                <a class="card__tag" href="#">#Tag 4</a>
-              </section>
-            </section>
+          </button>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            quidem itaque mollitia ex explicabo autem, quos aperiam eius.
+          </p>
+          <div class="button">
+            <button class="button__hide">Show Answer</button>
+          </div>
+          <h2 class="card__answer card__title">Answer</h2>
+          <p class="card__answer">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            quidem itaque mollitia ex explicabo autem, quos aperiam eius.
+          </p>
+          <section class="card__taglist">
+            <a class="card__tag" href="#">#Tag 1</a>
+            <a class="card__tag" href="#">#Tag 2</a>
+            <a class="card__tag" href="#">#Tag 3</a>
+            <a class="card__tag" href="#">#Tag 4</a>
           </section>
         </section>
-        <section data-js="pageCreate" class="hidden">
-          <header class="header">
+        <section data-js="card" class="card">
+          <h2 class="card__title">Question</h2>
+          <button data-js="bookmarkButton" class="button__bookmark">
             <img
-              class="header__image"
-              src="./images/icons8-add-48.png"
-              alt=""
+              class="button__bookmark--image"
+              src="./images/icons8-mark-48black.png"
+              alt="Bookmark"
             />
-            <h1 class="header__title" id="title">Create</h1>
-            <img
-              class="header__image"
-              src="./images/icons8-add-48.png"
-              alt=""
-            />
-          </header>
-          <section class="create">
-            <form aria-labelledby="title">
-              <div class="container__question">
-                <label for="question">Enter your question here:</label>
-                <textarea
-                  class="create__question"
-                  name=""
-                  id="question"
-                  cols="30"
-                  rows="10"
-                  placeholder="What is Garfield's favourite food?"
-                ></textarea>
-              </div>
-              <div class="container__answer">
-                <label for="answer">Enter your answer here:</label>
-                <textarea
-                  class="create__answer"
-                  name=""
-                  id="answer"
-                  cols="30"
-                  rows="10"
-                  placeholder="Lasagna"
-                ></textarea>
-              </div>
-              <div class="container__tags">
-                <label for="tags"
-                  >Place up to four tags here, divide them by ","</label
-                >
-                <input
-                  class="create__tags"
-                  type="text"
-                  id="tags"
-                  placeholder="#cats, #food, #comics"
-                />
-              </div>
-              <div class="button__container--submit">
-                <button class="button--submit" type="submit">Submit</button>
-              </div>
-            </form>
+          </button>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            quidem itaque mollitia ex explicabo autem, quos aperiam eius
+            blanditiis, harum necessitatibus facilis ab ipsum deleniti, aliquam
+            minus? Animi, adipisci iste?
+          </p>
+          <div class="button">
+            <button class="button__answer">Show Answer</button>
+          </div>
+          <section class="card__taglist">
+            <a class="card__tag" href="#">#Tag 1</a>
+            <a class="card__tag" href="#">#Tag 2</a>
+            <a class="card__tag" href="#">#Tag 3</a>
+            <a class="card__tag" href="#">#Tag 4</a>
           </section>
         </section>
-        <section data-js="pageProfile" class="hidden">
-          <header class="header">
+        <section data-js="card" class="card">
+          <h2 class="card__title">Question</h2>
+          <button data-js="bookmarkButton" class="button__bookmark">
             <img
-              class="header__image"
-              src="./images/icons8-resume-48.png"
-              alt=""
+              class="button__bookmark--image"
+              src="./images/icons8-mark-48black.png"
+              alt="Bookmark"
             />
-            <h1 class="header__title">Profile</h1>
-            <img
-              class="header__image"
-              src="./images/icons8-resume-48.png"
-              alt=""
-            />
-          </header>
-          <section class="profile">
-            <section class="profile__head">
-              <button class="profile__picture--add">
-                <img
-                  class="profile__picture"
-                  src="./images/icons8-user-64.png"
-                  alt="Add profile picture"
-                />
-              </button>
-              <span class="profile__name">Jane Doe</span>
-            </section>
-            <section class="profile__information">
-              <h2>About yourself</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda, aperiam! Voluptatem, unde necessitatibus laudantium
-                corporis fugit saepe corrupti repudiandae quasi iusto, dolorem
-                veniam expedita eligendi sint esse perspiciatis suscipit natus!
-              </p>
-            </section>
-            <section class="profile__skills">
-              <h2>Skills</h2>
-              <ul class="profile__tags" role="list">
-                <li><a class="card__tag" href="#">#food</a></li>
-                <li><a class="card__tag" href="#">#cats</a></li>
-                <li><a class="card__tag" href="#">#math & science</a></li>
-                <li><a class="card__tag" href="#">#music</a></li>
-              </ul>
-            </section>
-            <div class="button">
-              <button class="button--logout">Logout</button>
-            </div>
+          </button>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            quidem itaque mollitia ex explicabo autem, quos aperiam eius
+            blanditiis, harum necessitatibus facilis ab ipsum deleniti, aliquam
+            minus? Animi, adipisci iste?
+          </p>
+          <div class="button">
+            <button class="button__answer">Show Answer</button>
+          </div>
+          <section class="card__taglist">
+            <a class="card__tag" href="#">#Tag 1</a>
+            <a class="card__tag" href="#">#Tag 2</a>
+            <a class="card__tag" href="#">#Tag 3</a>
+            <a class="card__tag" href="#">#Tag 4</a>
           </section>
         </section>
-        <footer>
-          <nav class="footer__navigation">
-            <button data-js="buttonHome" class="footer--active">
-              <img
-                class="footer__image"
-                src="./images/icons8-home-48.png"
-                alt="Home"
-              />
-            </button>
-
-            <button data-js="buttonBookmarked" class="footer--inactive">
-              <img
-                class="footer__image"
-                src="./images/icons8-mark-48.png"
-                alt="Bookmarked"
-              />
-            </button>
-
-            <button data-js="buttonCreate" class="footer--inactive">
-              <img
-                class="footer__image"
-                src="./images/icons8-signup-48.png"
-                alt="Create Question"
-              />
-            </button>
-
-            <button data-js="buttonProfile" class="footer--inactive">
-              <img
-                class="footer__image"
-                src="./images/icons8-user-48.png"
-                alt="Profile"
-              />
-            </button>
-          </nav>
-        </footer>
+      </section>
+      <section data-js="pageBookmarked" class="hidden">
+        <section class="card--bookmarked">
+          <h2 class="card__title--bookmarked">Question</h2>
+          <button class="button__bookmark--bookmarked">
+            <img
+              class="button__bookmark--image"
+              src="./images/icons8-mark-48.png"
+              alt="Bookmarked"
+            />
+          </button>
+          <p class="card__question--bookmarked">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            quidem itaque mollitia ex explicabo autem, quos aperiam eius
+            blanditiis, harum necessitatibus facilis ab ipsum deleniti, aliquam
+            minus? Animi, adipisci iste?
+          </p>
+          <div class="button">
+            <button class="button__answer--bookmarked">Show Answer</button>
+          </div>
+          <section class="card__taglist">
+            <a class="card__tag" href="#">#Tag 1</a>
+            <a class="card__tag" href="#">#Tag 2</a>
+            <a class="card__tag" href="#">#Tag 3</a>
+            <a class="card__tag" href="#">#Tag 4</a>
+          </section>
+        </section>
+        <section class="card--bookmarked">
+          <h2 class="card__title">Question</h2>
+          <button class="button__bookmark">
+            <img
+              class="button__bookmark--image"
+              src="./images/icons8-mark-48.png"
+              alt="Bookmark"
+            />
+          </button>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            quidem itaque mollitia ex explicabo autem, quos aperiam eius.
+          </p>
+          <div class="button">
+            <button class="button__hide--bookmarked">Hide Answer</button>
+          </div>
+          <h2 class="card__title">Answer</h2>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            quidem itaque mollitia ex explicabo autem, quos aperiam eius.
+          </p>
+          <section class="card__taglist">
+            <a class="card__tag" href="#">#Tag 1</a>
+            <a class="card__tag" href="#">#Tag 2</a>
+            <a class="card__tag" href="#">#Tag 3</a>
+            <a class="card__tag" href="#">#Tag 4</a>
+          </section>
+        </section>
+      </section>
+      <section data-js="pageCreate" class="hidden">
+        <form aria-labelledby="title">
+          <div class="container__question">
+            <label for="question">Enter your question here:</label>
+            <textarea
+              class="create__question"
+              name=""
+              id="question"
+              cols="30"
+              rows="10"
+              placeholder="What is Garfield's favourite food?"
+            ></textarea>
+          </div>
+          <div class="container__answer">
+            <label for="answer">Enter your answer here:</label>
+            <textarea
+              class="create__answer"
+              name=""
+              id="answer"
+              cols="30"
+              rows="10"
+              placeholder="Lasagna"
+            ></textarea>
+          </div>
+          <div class="container__tags">
+            <label for="tags"
+              >Place up to four tags here, divide them by ","</label
+            >
+            <input
+              class="create__tags"
+              type="text"
+              id="tags"
+              placeholder="#cats, #food, #comics"
+            />
+          </div>
+          <div class="button__container--submit">
+            <button class="button--submit" type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+      <section data-js="pageProfile" class="hidden">
+        <section class="profile__head">
+          <button class="profile__picture--add">
+            <img
+              class="profile__picture"
+              src="./images/icons8-user-64.png"
+              alt="Add profile picture"
+            />
+          </button>
+          <span class="profile__name">Jane Doe</span>
+        </section>
+        <section class="profile__information">
+          <h2>About yourself</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            aperiam! Voluptatem, unde necessitatibus laudantium corporis fugit
+            saepe corrupti repudiandae quasi iusto, dolorem veniam expedita
+            eligendi sint esse perspiciatis suscipit natus!
+          </p>
+        </section>
+        <section class="profile__skills">
+          <h2>Skills</h2>
+          <ul class="profile__tags" role="list">
+            <li><a class="card__tag" href="#">#food</a></li>
+            <li><a class="card__tag" href="#">#cats</a></li>
+            <li><a class="card__tag" href="#">#math & science</a></li>
+            <li><a class="card__tag" href="#">#music</a></li>
+          </ul>
+        </section>
+        <div class="button">
+          <button class="button--logout">Logout</button>
+        </div>
       </section>
     </main>
+    <footer>
+      <nav class="footer__navigation">
+        <button data-js="buttonHome" class="footer--active">
+          <img
+            class="footer__image"
+            src="./images/icons8-home-48.png"
+            alt="Home"
+          />
+        </button>
+
+        <button data-js="buttonBookmarked" class="footer--inactive">
+          <img
+            class="footer__image"
+            src="./images/icons8-mark-48.png"
+            alt="Bookmarked"
+          />
+        </button>
+
+        <button data-js="buttonCreate" class="footer--inactive">
+          <img
+            class="footer__image"
+            src="./images/icons8-signup-48.png"
+            alt="Create Question"
+          />
+        </button>
+
+        <button data-js="buttonProfile" class="footer--inactive">
+          <img
+            class="footer__image"
+            src="./images/icons8-user-48.png"
+            alt="Profile"
+          />
+        </button>
+      </nav>
+    </footer>
   </body>
 </html>
