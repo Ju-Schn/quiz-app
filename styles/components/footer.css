@@ -7,7 +7,7 @@
   border: 1px solid rgb(0, 0, 82);
 }
 
-.footer__icon {
+.footer--inactive {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@
   background-color: rgb(30, 200, 243);
 }
 
-.footer__icon--clicked {
+.footer--active {
   background-color: azure;
   width: 100%;
   display: flex;
