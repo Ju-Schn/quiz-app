@@ -10,7 +10,6 @@ bookmarkButtons.forEach(bookmarkButton => {
     cards.forEach(card => {
       card.classList.toggle('card--bookmarked');
     });
-
     answerButton.classList.toggle('button__answer--bookmarked');
   });
 });
