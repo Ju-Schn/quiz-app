@@ -15,6 +15,39 @@ export default function navigation() {
   const headerProfile = document.querySelector('[data-js=headerProfile]');
 
   buttonHome.addEventListener('click', () => {
+    const footerImageHome = buttonHome.querySelector('[data-js=footerImage]');
+    const footerImageBookmarked = buttonBookmarked.querySelector(
+      '[data-js=footerImage]'
+    );
+    const footerImageCreate = buttonCreate.querySelector(
+      '[data-js=footerImage]'
+    );
+    const footerImageProfile = buttonProfile.querySelector(
+      '[data-js=footerImage]'
+    );
+
+    const footerImageInactiveHome = buttonHome.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveBookmarked = buttonBookmarked.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveCreate = buttonCreate.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveProfile = buttonProfile.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+
+    footerImageInactiveHome.classList.add('hidden');
+    footerImageInactiveBookmarked.classList.remove('hidden');
+    footerImageInactiveCreate.classList.remove('hidden');
+    footerImageInactiveProfile.classList.remove('hidden');
+    footerImageHome.classList.remove('hidden');
+    footerImageBookmarked.classList.add('hidden');
+    footerImageCreate.classList.add('hidden');
+    footerImageProfile.classList.add('hidden');
+
     pageHome.classList.remove('hidden');
     pageBookmarked.classList.add('hidden');
     pageCreate.classList.add('hidden');
@@ -26,16 +59,45 @@ export default function navigation() {
     headerProfile.classList.add('hidden');
 
     buttonHome.classList.add('footer--active');
-    buttonHome.classList.remove('footer--inactive');
-    buttonBookmarked.classList.add('footer--inactive');
     buttonBookmarked.classList.remove('footer--active');
-    buttonCreate.classList.add('footer--inactive');
     buttonCreate.classList.remove('footer--active');
-    buttonProfile.classList.add('footer--inactive');
     buttonProfile.classList.remove('footer--active');
   });
 
   buttonBookmarked.addEventListener('click', () => {
+    const footerImageHome = buttonHome.querySelector('[data-js=footerImage]');
+    const footerImageBookmarked = buttonBookmarked.querySelector(
+      '[data-js=footerImage]'
+    );
+    const footerImageCreate = buttonCreate.querySelector(
+      '[data-js=footerImage]'
+    );
+    const footerImageProfile = buttonProfile.querySelector(
+      '[data-js=footerImage]'
+    );
+
+    const footerImageInactiveHome = buttonHome.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveBookmarked = buttonBookmarked.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveCreate = buttonCreate.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveProfile = buttonProfile.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+
+    footerImageInactiveHome.classList.remove('hidden');
+    footerImageInactiveBookmarked.classList.add('hidden');
+    footerImageInactiveCreate.classList.remove('hidden');
+    footerImageInactiveProfile.classList.remove('hidden');
+    footerImageHome.classList.add('hidden');
+    footerImageBookmarked.classList.remove('hidden');
+    footerImageCreate.classList.add('hidden');
+    footerImageProfile.classList.add('hidden');
+
     pageHome.classList.add('hidden');
     pageBookmarked.classList.remove('hidden');
     pageCreate.classList.add('hidden');
@@ -46,17 +108,46 @@ export default function navigation() {
     headerCreate.classList.add('hidden');
     headerProfile.classList.add('hidden');
 
-    buttonHome.classList.add('footer--inactive');
     buttonHome.classList.remove('footer--active');
-    buttonBookmarked.classList.remove('footer--inactive');
     buttonBookmarked.classList.add('footer--active');
-    buttonCreate.classList.add('footer--inactive');
     buttonCreate.classList.remove('footer--active');
-    buttonProfile.classList.add('footer--inactive');
     buttonProfile.classList.remove('footer--active');
   });
 
   buttonCreate.addEventListener('click', () => {
+    const footerImageHome = buttonHome.querySelector('[data-js=footerImage]');
+    const footerImageBookmarked = buttonBookmarked.querySelector(
+      '[data-js=footerImage]'
+    );
+    const footerImageCreate = buttonCreate.querySelector(
+      '[data-js=footerImage]'
+    );
+    const footerImageProfile = buttonProfile.querySelector(
+      '[data-js=footerImage]'
+    );
+
+    const footerImageInactiveHome = buttonHome.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveBookmarked = buttonBookmarked.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveCreate = buttonCreate.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveProfile = buttonProfile.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+
+    footerImageInactiveHome.classList.remove('hidden');
+    footerImageInactiveBookmarked.classList.remove('hidden');
+    footerImageInactiveCreate.classList.add('hidden');
+    footerImageInactiveProfile.classList.remove('hidden');
+    footerImageHome.classList.add('hidden');
+    footerImageBookmarked.classList.add('hidden');
+    footerImageCreate.classList.remove('hidden');
+    footerImageProfile.classList.add('hidden');
+
     pageHome.classList.add('hidden');
     pageBookmarked.classList.add('hidden');
     pageCreate.classList.remove('hidden');
@@ -67,17 +158,46 @@ export default function navigation() {
     headerCreate.classList.remove('hidden');
     headerProfile.classList.add('hidden');
 
-    buttonHome.classList.add('footer--inactive');
     buttonHome.classList.remove('footer--active');
-    buttonBookmarked.classList.add('footer--inactive');
     buttonBookmarked.classList.remove('footer--active');
-    buttonCreate.classList.remove('footer--inactive');
     buttonCreate.classList.add('footer--active');
-    buttonProfile.classList.add('footer--inactive');
     buttonProfile.classList.remove('footer--active');
   });
 
   buttonProfile.addEventListener('click', () => {
+    const footerImageHome = buttonHome.querySelector('[data-js=footerImage]');
+    const footerImageBookmarked = buttonBookmarked.querySelector(
+      '[data-js=footerImage]'
+    );
+    const footerImageCreate = buttonCreate.querySelector(
+      '[data-js=footerImage]'
+    );
+    const footerImageProfile = buttonProfile.querySelector(
+      '[data-js=footerImage]'
+    );
+
+    const footerImageInactiveHome = buttonHome.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveBookmarked = buttonBookmarked.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveCreate = buttonCreate.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+    const footerImageInactiveProfile = buttonProfile.querySelector(
+      '[data-js=footerImageInactive]'
+    );
+
+    footerImageInactiveHome.classList.remove('hidden');
+    footerImageInactiveBookmarked.classList.remove('hidden');
+    footerImageInactiveCreate.classList.remove('hidden');
+    footerImageInactiveProfile.classList.add('hidden');
+    footerImageHome.classList.add('hidden');
+    footerImageBookmarked.classList.add('hidden');
+    footerImageCreate.classList.add('hidden');
+    footerImageProfile.classList.remove('hidden');
+
     pageHome.classList.add('hidden');
     pageBookmarked.classList.add('hidden');
     pageCreate.classList.add('hidden');
@@ -88,13 +208,9 @@ export default function navigation() {
     headerCreate.classList.add('hidden');
     headerProfile.classList.remove('hidden');
 
-    buttonHome.classList.add('footer--inactive');
     buttonHome.classList.remove('footer--active');
-    buttonBookmarked.classList.add('footer--inactive');
     buttonBookmarked.classList.remove('footer--active');
-    buttonCreate.classList.add('footer--inactive');
     buttonCreate.classList.remove('footer--active');
-    buttonProfile.classList.remove('footer--inactive');
     buttonProfile.classList.add('footer--active');
   });
 }

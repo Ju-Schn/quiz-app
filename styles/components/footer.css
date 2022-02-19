@@ -7,7 +7,7 @@
   border: 1px solid rgb(0, 0, 82);
 }
 
-.footer--inactive {
+.footer {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,6 +24,11 @@
 }
 
 .footer__image {
+  height: 75%;
+  width: auto;
+}
+
+.footer__image--inactive {
   height: 75%;
   width: auto;
 }

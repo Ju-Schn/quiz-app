@@ -316,34 +316,62 @@
     </main>
     <footer>
       <nav class="footer__navigation">
-        <button data-js="buttonHome" class="footer--active">
+        <button data-js="buttonHome" class="footer footer--active">
           <img
+            data-js="footerImage"
             class="footer__image"
             src="./images/icons8-home-48.png"
             alt="Home"
           />
+          <img
+            data-js="footerImageInactive"
+            class="footer__image--inactive hidden"
+            src="./images/icons8-home-48black.png"
+            alt="Home"
+          />
         </button>
 
-        <button data-js="buttonBookmarked" class="footer--inactive">
+        <button data-js="buttonBookmarked" class="footer">
           <img
-            class="footer__image"
+            data-js="footerImage"
+            class="footer__image hidden"
             src="./images/icons8-mark-48.png"
+            alt="Bookmarked"
+          />
+          <img
+            data-js="footerImageInactive"
+            class="footer__image--inactive"
+            src="./images/icons8-mark-48black.png"
             alt="Bookmarked"
           />
         </button>
 
-        <button data-js="buttonCreate" class="footer--inactive">
+        <button data-js="buttonCreate" class="footer">
           <img
-            class="footer__image"
+            data-js="footerImage"
+            class="footer__image hidden"
             src="./images/icons8-signup-48.png"
             alt="Create Question"
           />
+          <img
+            data-js="footerImageInactive"
+            class="footer__image--inactive"
+            src="./images/icons8-signup-48black.png"
+            alt="Create"
+          />
         </button>
 
-        <button data-js="buttonProfile" class="footer--inactive">
+        <button data-js="buttonProfile" class="footer">
           <img
-            class="footer__image"
+            data-js="footerImage"
+            class="footer__image hidden"
             src="./images/icons8-user-48.png"
+            alt="Profile"
+          />
+          <img
+            data-js="footerImageInactive"
+            class="footer__image--inactive"
+            src="./images/icons8-user-48black.png"
             alt="Profile"
           />
         </button>
