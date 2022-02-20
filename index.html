@@ -6,17 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <script defer src="index.js" type="module"></script>
-    <title>Quiz App</title>
+    <title>Qudy</title>
   </head>
   <body>
     <header data-js="headerHome" class="header">
       <img class="header__image" src="./images/icons8-faq-48.png" alt="" />
-      <h1 class="header__title">Quiz App</h1>
-      <img
-        class="header__image"
-        src="./images/icons8-direction-48.png"
-        alt=""
-      />
+      <h1 class="header__title">Qudy - Quiz and Study</h1>
+      <img class="header__image" src="./images/icons8-book-48.png" alt="" />
     </header>
     <header data-js="headerBookmarked" class="header hidden">
       <img class="header__image" src="./images/icons8-save-48.png" alt="" />
@@ -29,9 +25,17 @@
       <img class="header__image" src="./images/icons8-add-48.png" alt="" />
     </header>
     <header data-js="headerProfile" class="header hidden">
-      <img class="header__image" src="./images/icons8-resume-48.png" alt="" />
+      <img
+        class="header__image"
+        src="./images/icons8-female-profile-48.png"
+        alt=""
+      />
       <h1 class="header__title">Profile</h1>
-      <img class="header__image" src="./images/icons8-resume-48.png" alt="" />
+      <img
+        class="header__image"
+        src="./images/icons8-male-user-48.png"
+        alt=""
+      />
     </header>
     <main class="card-list">
       <section data-js="pageHome">
@@ -69,6 +73,23 @@
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
             quidem itaque mollitia ex explicabo autem, quos aperiam eius.
           </p>
+          <div data-js="counter" class="counter">
+            <button data-js="counterButton" class="counter__button">
+              <img
+                class="counter__image"
+                src="./images/icons8-done.svg"
+                alt="Right"
+              /><span>Right</span>
+            </button>
+            <button data-js="counterButton" class="counter__button">
+              <img
+                class="counter__image"
+                src="./images/icons8-close.svg"
+                alt="Not right"
+              /><span>Not Right</span>
+            </button>
+          </div>
+
           <section class="card__taglist">
             <a class="card__tag" href="#">#Tag 1</a>
             <a class="card__tag" href="#">#Tag 2</a>
