@@ -1,0 +1,15 @@
+.counter {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter__button {
+  display: flex;
+  flex-direction: column;
+}
+
+.counter__image {
+  height: 35px;
+  width: auto;
+}
