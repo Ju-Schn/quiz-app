@@ -13,6 +13,15 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
+.create__question-characters {
+  margin-top: 10px;
+  font-size: smaller;
+}
+
+.create__question-counter {
+  font-size: smaller;
+}
+
 .create__answer {
   border: 1px solid rgb(0, 0, 82);
   border-radius: 5px;

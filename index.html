@@ -306,8 +306,17 @@
       <section data-js="pageCreate" class="hidden">
         <form aria-labelledby="title">
           <div class="container__question">
-            <label for="question">Enter your question here:</label>
+            <label class="countainer__question-counter" for="question"
+              >Enter your question here:
+              <span class="create__question-characters">characters left:</span>
+              <span
+                class="create__question-counter"
+                data-js="counterAddQuestion"
+                >300</span
+              >
+            </label>
             <textarea
+              data-js="createQuestion"
               class="create__question"
               name=""
               id="question"
@@ -318,14 +327,22 @@
             ></textarea>
           </div>
           <div class="container__answer">
-            <label for="answer">Enter your answer here:</label>
+            <label class="countainer__answer-counter" for="answer"
+              >Enter your answer here:<span class="create__question-characters"
+                >characters left:</span
+              >
+              <span class="create__answer-counter" data-js="counterAddQuestion"
+                >300</span
+              ></label
+            >
             <textarea
+              data-js="createAnswer"
               class="create__answer"
               name=""
               id="answer"
               cols="30"
               rows="10"
-              maxlength="500"
+              maxlength="300"
               placeholder="Lasagna"
             ></textarea>
           </div>
