@@ -22,6 +22,17 @@
   box-shadow: 0 0 1em rgb(0, 0, 82);
 }
 
+.button__answer:active {
+  background: linear-gradient(
+    to top,
+    rgb(30, 200, 243, 0.3),
+    rgb(0, 0, 82, 0.7),
+    rgb(30, 200, 243, 0.3)
+  );
+  color: rgb(27, 171, 207);
+  box-shadow: 0 0 2em rgb(27, 171, 207);
+}
+
 .button__answer--bookmarked {
   background: linear-gradient(
     to top,
@@ -39,6 +50,17 @@
   border: none;
   border-radius: 5px;
   box-shadow: 0 0 1em azure;
+}
+
+.button__answer--bookmarked:active {
+  background: linear-gradient(
+    to top,
+    rgb(30, 200, 243, 0.3),
+    rgb(0, 0, 82, 0.7),
+    rgb(30, 200, 243, 0.3)
+  );
+  color: rgb(30, 200, 243);
+  box-shadow: 0 0 2em rgb(30, 200, 243);
 }
 
 .button__bookmark {
@@ -94,6 +116,17 @@
   box-shadow: 0 0 1em rgb(0, 0, 82);
 }
 
+.button--submit:active {
+  background: linear-gradient(
+    to top,
+    rgb(30, 200, 243, 0.3),
+    rgb(0, 0, 82, 0.7),
+    rgb(30, 200, 243, 0.3)
+  );
+  color: rgb(27, 171, 207);
+  box-shadow: 0 0 2em rgb(27, 171, 207);
+}
+
 .button__container--submit {
   display: flex;
   justify-content: center;
@@ -117,4 +150,15 @@
   border: none;
   border-radius: 5px;
   box-shadow: 0 0 1em rgb(0, 0, 82);
+}
+
+.button--logout:active {
+  background: linear-gradient(
+    to top,
+    rgb(30, 200, 243, 0.3),
+    rgb(0, 0, 82, 0.7),
+    rgb(30, 200, 243, 0.3)
+  );
+  color: rgb(27, 171, 207);
+  box-shadow: 0 0 2em rgb(27, 171, 207);
 }
