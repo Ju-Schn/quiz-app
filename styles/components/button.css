@@ -41,47 +41,8 @@
   box-shadow: 0 0 1em azure;
 }
 
-.button__hide {
-  background: linear-gradient(
-    to top,
-    rgb(0, 0, 82, 0.7),
-    rgb(30, 200, 243, 0.3),
-    rgb(0, 0, 82, 0.7)
-  );
-  color: rgb(0, 0, 82, 0.7);
-  padding: 15px;
-  margin: 5px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  font-weight: bold;
-  font-size: larger;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 0 1em rgb(0, 0, 82);
-  content: 'Hide Answer';
-}
-
-.button__hide--bookmarked {
-  background: linear-gradient(
-    to top,
-    rgb(0, 0, 82, 0.7),
-    rgb(30, 200, 243, 0.3),
-    rgb(0, 0, 82, 0.7)
-  );
-  color: azure;
-  padding: 15px;
-  margin: 5px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  font-weight: bold;
-  font-size: larger;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 0 1em azure;
-}
-
 .button__bookmark {
-  background-color: azure;
+  background-color: rgb(30, 200, 243);
   height: 48px;
   width: 48px;
   border: 1px solid rgb(0, 0, 82);
@@ -94,7 +55,7 @@
 }
 
 .button__bookmark--bookmarked {
-  background-color: rgb(30, 200, 243);
+  background-color: azure;
   height: 48px;
   width: 48px;
   border: 1px solid rgb(0, 0, 82);
