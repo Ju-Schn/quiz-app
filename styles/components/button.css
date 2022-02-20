@@ -132,7 +132,7 @@
   justify-content: center;
 }
 
-.button--logout {
+.button--login {
   background: linear-gradient(
     to top,
     rgb(0, 0, 82, 0.7),
@@ -152,7 +152,7 @@
   box-shadow: 0 0 1em rgb(0, 0, 82);
 }
 
-.button--logout:active {
+.button--login:active {
   background: linear-gradient(
     to top,
     rgb(30, 200, 243, 0.3),
