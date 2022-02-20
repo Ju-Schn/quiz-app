@@ -1,5 +1,5 @@
 export default function login() {
-  const loginButton = document.querySelector('[loginButton]');
+  const loginButton = document.querySelector('[data-js=loginButton]');
   let isUserLoggedOut = true;
 
   loginButton.addEventListener('click', () => {
