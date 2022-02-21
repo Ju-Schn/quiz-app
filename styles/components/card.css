@@ -45,6 +45,7 @@
 .card__taglist {
   list-style: none;
   padding: 1rem;
+  padding-top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
