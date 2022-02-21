@@ -14,6 +14,7 @@
 }
 
 .create__question-characters {
+  text-align: right;
   margin-top: 10px;
   font-size: smaller;
 }
@@ -31,6 +32,10 @@
   color: rgb(0, 0, 82);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+}
+
+.create__answer-counter {
+  font-size: smaller;
 }
 
 .create__tags {
