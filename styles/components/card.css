@@ -2,10 +2,11 @@
   border: 1px solid rgb(0, 0, 82);
   border-radius: 5px;
   background-color: azure;
+  margin-top: 1rem;
   margin-bottom: 1.5rem;
   padding: 1rem;
   color: rgb(0, 0, 82);
-  width: 350px;
+  width: 300px;
   box-shadow: 0 0 1em;
   position: relative;
 }

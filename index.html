@@ -74,22 +74,27 @@
             quidem itaque mollitia ex explicabo autem, quos aperiam eius.
           </p>
           <div data-js="counter" class="counter">
-            <button data-js="counterButton" class="counter__button">
+            <button data-js="counterButtonRight" class="counter__button hidden">
               <img
                 class="counter__image"
                 src="./images/icons8-done.svg"
                 alt="Right"
               /><span>Right</span>
+              <span data-js="counterRightNumber" class="counter__number"
+                >0</span
+              >
             </button>
-            <button data-js="counterButton" class="counter__button">
+            <button data-js="counterButtonWrong" class="counter__button hidden">
               <img
                 class="counter__image"
                 src="./images/icons8-close.svg"
                 alt="Not right"
               /><span>Not Right</span>
+              <span data-js="counterWrongNumber" class="counter__number"
+                >0</span
+              >
             </button>
           </div>
-
           <section class="card__taglist">
             <a class="card__tag" href="#">#Tag 1</a>
             <a class="card__tag" href="#">#Tag 2</a>
@@ -306,8 +311,17 @@
       <section data-js="pageCreate" class="hidden">
         <form aria-labelledby="title">
           <div class="container__question">
-            <label for="question">Enter your question here:</label>
+            <label class="countainer__question-counter" for="question"
+              >Enter your question here:
+              <span class="create__question-characters">characters left:</span>
+              <span
+                class="create__question-counter"
+                data-js="counterAddQuestion"
+                >300</span
+              >
+            </label>
             <textarea
+              data-js="createQuestion"
               class="create__question"
               name=""
               id="question"
@@ -318,14 +332,22 @@
             ></textarea>
           </div>
           <div class="container__answer">
-            <label for="answer">Enter your answer here:</label>
+            <label class="countainer__answer-counter" for="answer"
+              >Enter your answer here:<span class="create__question-characters"
+                >characters left:</span
+              >
+              <span class="create__answer-counter" data-js="counterAddAnswer"
+                >300</span
+              ></label
+            >
             <textarea
+              data-js="createAnswer"
               class="create__answer"
               name=""
               id="answer"
               cols="30"
               rows="10"
-              maxlength="500"
+              maxlength="300"
               placeholder="Lasagna"
             ></textarea>
           </div>

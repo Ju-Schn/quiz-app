@@ -7,6 +7,42 @@
 .counter__button {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(0, 0, 82);
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 82, 0.7),
+    rgb(30, 200, 243, 0.3),
+    rgb(0, 0, 82, 0.7)
+  );
+  color: rgb(0, 0, 82, 0.7);
+  width: 88px;
+  height: 96px;
+  border-radius: 5px;
+  box-shadow: 0 0 1em rgb(0, 0, 82);
+}
+
+.counter__button--bookmarked {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(0, 0, 82);
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 82, 0.7),
+    rgb(30, 200, 243, 0.3),
+    rgb(0, 0, 82, 0.7)
+  );
+  color: azure;
+  width: 88px;
+  height: 96px;
+  border-radius: 5px;
+  box-shadow: 0 0 1em azure;
+}
+
+.counter__number {
+  color: azure;
+  font-size: larger;
 }
 
 .counter__image {
