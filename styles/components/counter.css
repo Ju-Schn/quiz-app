@@ -40,6 +40,17 @@
   box-shadow: 0 0 1em azure;
 }
 
+.counter__button:active {
+  background: linear-gradient(
+    to top,
+    rgb(30, 200, 243, 0.3),
+    rgb(0, 0, 82, 0.7),
+    rgb(30, 200, 243, 0.3)
+  );
+  color: rgb(30, 200, 243);
+  box-shadow: 0 0 2em rgb(30, 200, 243);
+}
+
 .counter__number {
   color: azure;
   font-size: larger;
